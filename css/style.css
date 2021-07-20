@@ -15,11 +15,12 @@ a{
     color: white;
     padding-left: 10px;
 }
+/*hero section*/
 .green-section{
     background-color:#1abc9c;
     padding: 220px 0;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
       
 }
 @media (max-width: 575.98px){
@@ -38,17 +39,29 @@ a{
         transform: scale(0.9);
     }
 }
+/*portfolio section*/
 .portfolio-title{
     height: 100px;
     color:black;
     
 }
 .portfolio{
-    margin-top: 60px;
+    margin: 70px 0;
 }
 .img-portfolio{
     height: 250px;
     border-radius: 20px;
     background-color: rgb(126, 208, 233);
     margin-bottom:15px ;
+}
+/*about section*/
+.about-section{
+    background-color:#1abc9c;
+    padding: 50px 0;
+}
+.about-title{
+    padding: 30px 0;
+}
+.download-btn{
+    margin-top: 50px ;
 }
