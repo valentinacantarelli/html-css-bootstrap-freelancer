@@ -73,22 +73,23 @@ header{
     padding-top: 30px;
 }
 /*portfolio section*/
-.portfolio-title{
-    height: 100px;
-    color:black;
-    
+#portfolio{
+    color: black;
 }
 .black_line{
     background-color: black;
 }
-.portfolio{
-    margin: 70px 0;
+.porfolio-title{
+    margin-bottom: 60px;
 }
+
 .img-portfolio{
-    height: 250px;
     border-radius: 20px;
-    background-color: rgb(126, 208, 233);
     margin-bottom:15px ;
+    overflow: hidden;    
+}
+.img-portfolio img{
+    width: 100%;
 }
 /*about section*/
 .about-section{
