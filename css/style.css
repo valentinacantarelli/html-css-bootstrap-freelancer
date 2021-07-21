@@ -137,6 +137,20 @@ header{
     background-color: #3a546d;
     padding: 50px 0;
 }
+.green-link{
+    color: #1abc9c;
+}
+.footer-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    line-height: 40px;
+    margin: 0 2px;
+}
+
+
+
 .bottom-footer{
     background-color: #2c3e50;
     
