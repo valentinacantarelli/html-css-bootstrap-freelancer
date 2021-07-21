@@ -65,3 +65,25 @@ a{
 .download-btn{
     margin-top: 50px ;
 }
+/*contact section*/
+.contact-section{
+    color: black;
+    padding: 50px 0;
+}
+.contact-form{
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: inline-block;
+    padding: 20px 0 ;
+}
+.message{
+    padding-bottom: 150px;
+}
+.btn-send{
+    margin: 10px 0;
+    background-color: #1abc9c ;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
