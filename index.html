@@ -13,16 +13,29 @@
     <body>
         <!-- header  -->
         <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-6 text-center align-middle">START BOOTSTRAP</div>
-                    <div class="col-6 text-center align-middle d-none d-sm-block">
-                        <a href="#">PORTFOLIO</a>
-                        <a href="#">ABOUT</a>
-                        <a href="#">CONTACT</a>
+            <div class="container_small">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                    <div class="container-fluid ">
+                      <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">                          
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">PORTFOLIO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                          </li>                    
+                        </ul>                        
+                      </div>
                     </div>
-                </div>
-            </div>
+                  </nav>        
+               </div>
         </header>
         <!-- main  -->
         <main>
@@ -80,10 +93,10 @@
                         <div class="col-12 text-center">
                             <h2 class="about-title">ABOUT</h2>
                         </div>
-                        <div class="col-12 col-md-5 mx-auto">
+                        <div class="col-10 col-md-4 mx-auto">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod praesentium illum quam reiciendis odio doloribus dicta? Reprehenderit, aperiam sed autem saepe deleniti accusamus, officiis exercitationem quo veniam aspernatur, molestias voluptates!
                         </div>
-                        <div class="col-12 col-md-5 mx-auto">
+                        <div class="col-10 col-md-4 mx-auto">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis expedita eligendi, veritatis eius molestias odit, natus nam rerum illo esse corrupti fugiat placeat laboriosam aperiam tempora earum ipsam quis beatae?
                         </div>
                         <div class="col-12 text-center">
@@ -93,28 +106,43 @@
                 </div>
             </section>
             <!-- sezione contact me  -->
-            <section class="contact-section">
+            <section class="contact-section ">                
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 text-center">
+                        <div class="col-11 text-center">
                             <h2>CONTACT ME</h2>
                         </div>
-                        <div class="col-12">
-                            <span class="contact-form">Name</span> </div>
-                        <div class="col-12">
-                            <span class="contact-form">Email Address</span> </div>
-                        <div class="col-12">
-                            <span class="contact-form">Phone Number</span> </div>
-                        <div class="col-12">
-                            <span class="contact-form message">Message</span> </div>
-                        <div class="col-12">
-                            <button class="btn-send"> Send </button>
+                        
+                    </div>
+                </div>                
+            </section>
+        </main>
+        <footer>
+            <!-- top footer  -->
+            <section class="top-footer ">
+                <div class="container">                    
+                    <div class="row">
+                        <div class="col-12 col-lg-4 text-center mx-auto">
+                            <h3>LOCATION</h3>
+                            <p>2215 John Daniel Drive Clark, MO  54253</p></div>
+                        <div class="col-12 col-lg-4 text-center mx-auto"> <h3>AROUND THE WEB</h3></div>
+                        <div class="col-12 col-lg-4 text-center mx-auto"> 
+                            <h3>ABOUT FREELANCER</h3>
+                        <p>Freelancer is a free to use, open source Bootstrap theme created by <span class="green-link">Start Bootstrap</span> </p></div>
+                    </div>                    
+                </div>
+            </section>
+            <!-- bottom footer  -->
+            <section class="bottom-footer ">
+                <div class="container-small">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col"></div>
                         </div>
                     </div>
                 </div>
             </section>
-        </main>
-        <footer></footer>
+        </footer>
         
     </body>
 </html>

@@ -1,20 +1,45 @@
 body{
     color: white;
 }
-header{
-    background-color: #2c3e50;
-    padding: 30px 0;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    
-}
-
 a{
     text-decoration: none;
     color: white;
     padding-left: 10px;
 }
+.container_small{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    background-color: #2c3e50;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;    
+}
+.bg-light{
+    background-color: #2c3e50!important;
+}
+/*nav bar*/
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+.navbar-light .navbar-toggler-icon{
+    filter: invert(1);
+}
+.navbar-light .navbar-brand {
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-collapse {
+    flex-grow: 0;
+    align-items: flex-end;
+}
+
 /*hero section*/
 .green-section{
     background-color:#1abc9c;
@@ -86,4 +111,13 @@ a{
     color: white;
     padding: 5px 10px;
     border: none;
+}
+/*footer*/
+.top-footer{
+    background-color: #3a546d;
+    padding: 50px 0;
+}
+.bottom-footer{
+    background-color: #2c3e50;
+    
 }
